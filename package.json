@@ -1,0 +1,33 @@
+{
+  "name": "deadlands",
+  "version": "0.1.0",
+  "description": "Web-based multiplayer text game",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "server": "nodemon server",
+    "client": "npm start --prefix client",
+    "dev": "conecurrently \"npm run server\" \"npm run client\""
+  },
+  "keywords": [
+    "MUD",
+    "RPG",
+    "Game"
+  ],
+  "author": "Morgrhim",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "config": "^3.1.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.1.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.6.2",
+    "socket.io": "^2.2.0"
+  },
+  "devDependencies": {
+    "concurrently": "^4.1.1",
+    "nodemon": "^1.19.1"
+  }
+}

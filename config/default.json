@@ -1,0 +1,3 @@
+{
+  "mongoURI": "mongodb+srv://rpguser:X4ZsjCpeHW59nJJV@rpgcluster-kguom.mongodb.net/dev?retryWrites=true&w=majority"
+}
